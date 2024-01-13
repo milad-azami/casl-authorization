@@ -35,7 +35,9 @@ h1 {
   line-height: 1.1;
 }
 
-button {
+button,
+input {
+  margin: 5px;
   border-radius: 8px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
@@ -54,6 +56,18 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+section {
+  display: flex;
+}
+
+h4 {
+  margin: 50px 0 10px;
+}
+
+label {
+  margin-left: 20px;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
@@ -62,7 +76,8 @@ button:focus-visible {
   a:hover {
     color: #747bff;
   }
-  button {
-    background-color: #f9f9f9;
+  button,
+  input {
+    background-color: #f3f3f3;
   }
 }

@@ -1,4 +1,4 @@
-// create a context for permissions and abilities
+// create a context for permissionscreat and abilities
 
 import { createContext } from "react";
 import { createContextualCan } from "@casl/react";
